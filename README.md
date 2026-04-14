@@ -135,9 +135,9 @@ erp_px_cat      →   erp_px_cat_cleaned
 
 | Layer | Purpose | Schema |
 |---|---|---|
-| 🥉 **Bronze** | Raw data, exact copy of source | `workspace.bronze` |
-| 🥈 **Silver** | Cleaned, typed, standardized | `workspace.silver` |
-| 🥇 **Gold** | Business-ready, Star Schema | `workspace.gold` |
+| 🥉 **Bronze** | Raw data injestion, Schema inference and storage as Delta tables | `workspace.bronze` |
+| 🥈 **Silver** |Data cleaning and standardization, Type casting and validation | `workspace.silver` |
+| 🥇 **Gold** | Business Transformation, Star Schema | `workspace.gold` |
 
 ---
 
